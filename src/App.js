@@ -9,7 +9,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header>
-          <img src={header} alt="header image" />
+          <img src={header} alt="header" />
         </header>
         <h1>Dictionary</h1>
         <Dictionary />
@@ -24,7 +24,7 @@ export default function App() {
             </a>{" "}
             coded by Melanie D.
           </p>
-          <img src={footer} alt="footer image" />
+          <img src={footer} alt="footer" />
         </footer>
       </div>
     </div>
