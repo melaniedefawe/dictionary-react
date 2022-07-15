@@ -2,6 +2,7 @@ import React from "react";
 import header from "./header.png";
 import footer from "./footer.png";
 import "./styles.css";
+import Dictionary from "./Dictionary";
 
 export default function App() {
   return (
@@ -11,7 +12,7 @@ export default function App() {
           <img src={header} alt="header image" />
         </header>
         <h1>Dictionary</h1>
-        <Search />
+        <Dictionary />
         <footer>
           <p>
             <a
