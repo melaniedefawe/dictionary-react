@@ -21,3 +21,18 @@ footer a:visited {
 .definition {
   margin: 30px 10px;
 }
+
+.meaning {
+  margin: 0px;
+}
+
+.part-of-speech {
+  color: gray;
+  font-size: smaller;
+}
+
+.example {
+  font-style: italic;
+  margin-top: 0px;
+  margin-bottom: 26px;
+}
