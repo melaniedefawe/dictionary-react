@@ -17,3 +17,7 @@ footer p {
 footer a:visited {
   color: gray;
 }
+
+.definition {
+  margin: 30px 10px;
+}
