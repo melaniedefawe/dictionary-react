@@ -1,5 +1,14 @@
+:root {
+  --primary-color: #f9e34083;
+  --secondary-color: #75a501;
+  --border: 3px solid var(--primary-color);
+  --primary-font: Verdana, Geneva, Tahoma, sans-serif;
+  --secondary-font: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+}
+
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: var(--primary-font);
 }
 
 header img,
@@ -14,37 +23,65 @@ footer p {
   font-size: 12px;
 }
 
+h1 {
+  margin: 20px 5px;
+  color: var(--secondary-color);
+}
+
 h3 {
   display: inline;
+  color: var(--secondary-color);
+  text-transform: lowercase;
 }
 
 footer a:visited {
   color: gray;
 }
 
-.definition {
+.phonetics {
   margin: 30px 10px;
 }
 
+.component-container {
+  background-color: var(--primary-color);
+  padding: 20px;
+  border: var(--border);
+  margin: 16px 0px;
+  border-radius: 10px;
+}
+
 .meaning {
-  margin: 30px 0px 0px 0px;
-  padding: 5px;
+  margin: 0px 20px;
+  padding: 3px;
+  font-weight: 600;
+}
+
+.meanings {
+  margin-top: 22px;
 }
 
 .part-of-speech {
-  color: gray;
-  font-size: smaller;
+  color: var(--secondary-color);
+  font-size: larger;
+  text-transform: uppercase;
+  margin-top: 15px;
 }
 
 .example {
   font-style: italic;
-  margin: 0px 0px 0px 20px;
+  margin: 0px 0px 0px 60px;
+  font-family: var(--secondary-font);
+}
+
+.example::first-letter {
+  text-transform: capitalize;
 }
 
 .synonyms {
-  font-size: small;
+  font-size: smaller;
   list-style-type: none;
-  margin: 0px 0px 0px 20px;
+  margin: 0px 0px 0px 40px;
+  font-family: var(--secondary-font);
 }
 
 .synonyms li {

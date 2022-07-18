@@ -11,10 +11,12 @@ export default function App() {
         <header>
           <img src={header} alt="header" />
         </header>
-        <h1>Dictionary</h1>
-        <Dictionary />
+        <section className="component-container">
+          <h1>Dictionary</h1>
+          <Dictionary />
+        </section>
         <footer>
-          <p>
+          <p className="text-center">
             <a
               href="https://github.com/valhalyria/dictionary-react"
               target="_blank"

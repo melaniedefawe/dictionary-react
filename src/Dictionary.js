@@ -23,7 +23,7 @@ export default function Dictionary() {
 
   return (
     <div>
-      <form onSubmit={search}>
+      <form onSubmit={search} className="mb-5">
         <input
           type="search"
           autoFocus={true}
