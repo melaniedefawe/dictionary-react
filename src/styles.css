@@ -23,7 +23,8 @@ footer a:visited {
 }
 
 .meaning {
-  margin: 0px;
+  margin: 30px 0px 0px 0px;
+  padding: 5px;
 }
 
 .part-of-speech {
@@ -33,6 +34,16 @@ footer a:visited {
 
 .example {
   font-style: italic;
-  margin-top: 0px;
-  margin-bottom: 26px;
+  margin: 0px 0px 0px 20px;
+}
+
+.synonyms {
+  font-size: small;
+  list-style-type: none;
+  margin: 0px 0px 0px 20px;
+}
+
+.synonyms li {
+  display: inline;
+  padding: 0px 5px;
 }
