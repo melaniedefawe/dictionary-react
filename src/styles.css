@@ -14,6 +14,10 @@ footer p {
   font-size: 12px;
 }
 
+h3 {
+  display: inline;
+}
+
 footer a:visited {
   color: gray;
 }
@@ -46,4 +50,9 @@ footer a:visited {
 .synonyms li {
   display: inline;
   padding: 0px 5px;
+}
+
+.phonetic {
+  padding: 10px;
+  font-size: 16px;
 }
