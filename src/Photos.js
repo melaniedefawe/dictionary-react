@@ -3,7 +3,7 @@ import React from "react";
 export default function Photos(props) {
   if (props.photos) {
     return (
-      <div className="component-container photos">
+      <section className="photos">
         <div className="row">
           {props.photos.map(function (photo, index) {
             return (
@@ -19,7 +19,7 @@ export default function Photos(props) {
             );
           })}
         </div>
-      </div>
+      </section>
     );
   } else {
     return null;

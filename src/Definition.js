@@ -7,7 +7,7 @@ export default function Definition(props) {
   if (props.data) {
     return (
       <div>
-        <div className="phonetics component-container">
+        <section className="phonetics">
           <h3>{props.data.word}</h3>{" "}
           {props.data.phonetics.map(function (phonetic, index) {
             return (
@@ -16,14 +16,14 @@ export default function Definition(props) {
               </span>
             );
           })}
-        </div>
+        </section>
         {props.data.meanings.map(function (meaning, index) {
           return (
-            <div key={index} className="component-container">
+            <section key={index}>
               <div className="part-of-speech">{meaning.partOfSpeech}</div>
               <Meaning meaning={meaning} />{" "}
               <Synonyms synonyms={meaning.synonyms} />
-            </div>
+            </section>
           );
         })}
       </div>

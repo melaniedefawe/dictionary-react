@@ -11,7 +11,7 @@ export default function App() {
         <header>
           <img src={header} alt="header" />
         </header>
-        <section className="component-container">
+        <section>
           <h1>Dictionary</h1>
           <Dictionary />
         </section>

@@ -11,6 +11,14 @@ body {
   font-family: var(--primary-font);
 }
 
+section {
+  background-color: var(--primary-color);
+  padding: 20px;
+  border: var(--border);
+  margin: 16px 0px;
+  border-radius: 10px;
+}
+
 header img,
 footer img {
   display: block;
@@ -40,14 +48,6 @@ footer a:visited {
 
 .phonetics {
   margin: 30px 10px;
-}
-
-.component-container {
-  background-color: var(--primary-color);
-  padding: 20px;
-  border: var(--border);
-  margin: 16px 0px;
-  border-radius: 10px;
 }
 
 .meaning {
