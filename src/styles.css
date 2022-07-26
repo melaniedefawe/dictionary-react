@@ -93,3 +93,7 @@ footer a:visited {
   padding: 10px;
   font-size: 16px;
 }
+
+.photos img {
+  margin: 10px auto;
+}
